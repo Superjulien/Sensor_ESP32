@@ -307,7 +307,7 @@ void handleRoot(AsyncWebServerRequest *request) {
     page += "    <p></p>";
     page += "    <p class=sensor-info>";
     page += "      <img src=https://cdn.icon-icons.com/icons2/957/PNG/128/sound_icon-icons.com_74449.png alt=Sound Sensor width=40 style=background-color: transparent;>";
-    page += "      - Sound sensor :  "+ val_sound_mess + " </p><div class=tab><p>Number of alerts : "+ alert_sound +"</p></div>";
+    page += "      - Sound sensor :  "+ val_sound_mess + " / 1 </p><div class=tab><p>Number of alerts : "+ alert_sound +"</p></div>";
     page += "    </p>";
     page += "    <p></p>";
     page += "    <p class=sensor-info>";

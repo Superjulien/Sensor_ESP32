@@ -200,6 +200,7 @@ The web interface provides information about the sensor readings and alerts. It 
 - Mail error: Displays the number of email sending errors, if any.
 
 ## Support
+
 For support email : 
 
 [![Gmail: superjulien](https://img.shields.io/badge/Gmail-Contact%20Me-red.svg)](mailto:contact.superjulien@gmail.com) [![Tutanota: superjulien](https://img.shields.io/badge/Tutanota-Contact%20Me-green.svg)](mailto:contacts.superjulien@tutanota.com)

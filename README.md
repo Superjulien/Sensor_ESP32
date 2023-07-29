@@ -1,6 +1,6 @@
 # Sensor_ESP32
 
-[![Version](https://img.shields.io/badge/Version-1.3-blue.svg)](https://github.com/Superjulien/Sensor_ESP32) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/) [![ESP32](https://img.shields.io/badge/Microcontrollers-ESP32-blue.svg)](https://en.wikipedia.org/wiki/ESP32) [![Arduino](https://img.shields.io/badge/Arduino-00979D?&logo=Arduino&logoColor=pink.svg)](https://www.arduino.cc/) [![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white.svg)](https://en.wikipedia.org/wiki/C++)
+[![Version](https://img.shields.io/badge/Version-1.3-blue.svg)](https://github.com/Superjulien/Sensor_ESP32) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/) [![ESP32](https://img.shields.io/badge/Microcontrollers-ESP32-blue.svg)](https://en.wikipedia.org/wiki/ESP32) [![Arduino](https://img.shields.io/badge/Arduino-9D0600?&logo=Arduino&logoColor=white.svg)](https://www.arduino.cc/) [![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white.svg)](https://en.wikipedia.org/wiki/C++)
 
 This script is for an ESP32 sensor system that monitors environmental parameters like temperature, humidity, sound, gas, fire, and motion. It uses various sensors and connects to WiFi to send email alerts and display real-time data on a web server.
 

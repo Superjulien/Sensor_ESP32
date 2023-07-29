@@ -1,5 +1,7 @@
 # Sensor_ESP32
-### Version 1.3
+
+[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/Superjulien/Sensor_ESP32) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/) [![ESP32](https://img.shields.io/badge/ESP32-blue.svg)](https://en.wikipedia.org/wiki/ESP32) [![Arduino](https://img.shields.io/badge/Arduino-blue.svg)](https://www.arduino.cc/) [![C++](https://img.shields.io/badge/lang-C%2B%2B-blue.svg)](https://en.wikipedia.org/wiki/C++)
+
 This script is for an ESP32 sensor system that monitors environmental parameters like temperature, humidity, sound, gas, fire, and motion. It uses various sensors and connects to WiFi to send email alerts and display real-time data on a web server.
 
 ## Features
@@ -198,8 +200,9 @@ The web interface provides information about the sensor readings and alerts. It 
 - Mail error: Displays the number of email sending errors, if any.
 
 ## Support
+For support email : 
 
-For support, email [Gmail: superjulien](mailto:contact.superjulien@gmail.com) | [Tutanota: superjulien](mailto:contacts.superjulien@tutanota.com).
+[![Gmail: superjulien](https://img.shields.io/badge/Gmail-Contact%20Me-red.svg)](mailto:contact.superjulien@gmail.com) [![Tutanota: superjulien](https://img.shields.io/badge/Tutanota-Contact%20Me-green.svg)](mailto:contacts.superjulien@tutanota.com)
 
 ## License
 

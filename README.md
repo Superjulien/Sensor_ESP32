@@ -295,7 +295,7 @@ Every small gesture matters and contributes to making a real difference.
 
 For support email : 
 
-[![Gmail: superjulien](https://img.shields.io/badge/Gmail-Contact%20Me-red.svg)](mailto:contact.superjulien@gmail.com) [![Tutanota: superjulien](https://img.shields.io/badge/Tutanota-Contact%20Me-green.svg)](mailto:contacts.superjulien@tutanota.com)
+[![Gmail: superjulien](https://img.shields.io/badge/Gmail-Contact%20Me-purple.svg)](mailto:contact.superjulien@gmail.com) [![Tutanota: superjulien](https://img.shields.io/badge/Tutanota-Contact%20Me-green.svg)](mailto:contacts.superjulien@tutanota.com)
 
 ## License
 

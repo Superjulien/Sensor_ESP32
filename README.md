@@ -122,7 +122,73 @@ Replace the following values with the appropriate information:
     
 - gmtOffset_sec: Replace with the GMT offset in seconds.
     
- - daylightOffset_sec: Replace with the daylight saving offset in seconds.
+ - daylightOffset_sec: Replace with the daylight saving offset in seconds. 
+
+ ### Adjusting Alert Thresholds in `void detecteur()`
+
+To customize the alert thresholds in the `void detecteur()` function of this code, follow these steps to modify the threshold values for specific sensors such as fire, gas, temperature, humidity, and heat index:
+
+1. **Fire Sensor Threshold**:
+   
+   Locate the section in the code that checks the fire sensor reading:
+
+   ```cpp
+   if (val_fire > 1000) {
+       // Fire alert condition
+   }
+   ```
+
+   Adjust the `1000` value to your desired threshold. This value represents the analog reading from the fire sensor above which an alert is triggered. Modify it based on the sensitivity of your fire sensor and the conditions you want to monitor.
+
+2. **Gas Sensor Threshold**:
+
+   Find the section that monitors the gas sensor reading:
+
+   ```cpp
+   if (val_gas > 1500) {
+       // Gas alert condition
+   }
+   ```
+
+   Change the `1500` value to the desired gas sensor threshold. This value represents the analog reading beyond which a gas alert is triggered. Adjust it according to the gas levels you want to detect.
+
+3. **Temperature Threshold**:
+
+   Locate the temperature sensor check:
+
+   ```cpp
+   if (te > 40 || te < 10) {
+       // Temperature alert condition
+   }
+   ```
+
+   Modify the `40` and `10` values to set the upper and lower temperature thresholds. These values define the temperature range within which no alert is triggered. Adjust them to suit your temperature monitoring requirements.
+
+4. **Humidity Threshold**:
+
+   Find the humidity sensor condition:
+
+   ```cpp
+   if (h > 70) {
+       // Humidity alert condition
+   }
+   ```
+
+   Change the `70` value to set the humidity threshold above which an alert is triggered. This value represents the percentage of humidity. Adjust it based on your desired humidity monitoring level.
+
+5. **Heat Index Threshold**:
+
+   Locate the heat index sensor check:
+
+   ```cpp
+   if (hic > 40 || hic < 10) {
+       // Heat index alert condition
+   }
+   ```
+
+   Modify the `40` and `10` values to set the upper and lower heat index thresholds. These values determine the acceptable range for the heat index before an alert is triggered. Adjust them as needed for accurate heat index monitoring.
+
+Be sure to consider the sensor characteristics, environmental conditions, and your monitoring goals while setting the new thresholds. Continuous testing and calibration may be necessary to achieve optimal alerting performance.
 
 ### Customizable Functions
 
